@@ -13,7 +13,7 @@ function SearchBar() {
   
    const fetchNFTHandler = async (e) => {
     e.preventDefault();
-    // Add functionality to fetch NFTs using the account and protocol
+
     if(account.length === 42) {
       try {
           const response = await fetch(`https://ubiquity.api.blockdaemon.com/nft/v1/${protocol}/mainnet/assets?wallet_address=${account}`, {
