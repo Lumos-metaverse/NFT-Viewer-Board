@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>NFT Viewer Board</h1>
-        <p>View your NFT Collection on Ethereum Chain</p>
+        <p>View your NFT Collection on Ethereum mainnet</p>
       </header>
       <SearchBar />
     </div>
